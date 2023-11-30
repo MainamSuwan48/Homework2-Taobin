@@ -1,0 +1,115 @@
+* {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+}
+
+header {
+  /* height: 100px; */
+  background-color: #f4ce14;
+  /* padding-top: 25px;
+            padding-bottom: 25px; */
+  padding-block: 25px;
+  /* padding-left: 25px;
+            padding-right: 25px; */
+  padding-inline: 25px;
+  min-height: 70px;
+  background-image: url(./assets/yellowBG.jpg);
+}
+
+nav {
+  background-color: #45474b;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.previous {
+  font-size: 35px;
+  font-weight: 800;
+  color: #f5f7f8;
+}
+
+.right-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #f5f7f8;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+
+
+/* .mobile .cred{
+    max-height: 5px;
+} */
+
+.globe {
+  height: 50px;
+}
+
+.welcome {
+  background-color: #f1de7e;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.title-text {
+  background-color: #f1de7e;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.items-row {
+  background-color: #f1de7e;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #f5f7f8;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: auto;
+}
+
+img {
+  height: 50px;
+}
+
+.bottom{
+  padding-bottom: 500px;
+}
+
+/* nav > *{
+        color: rgb(8, 137, 27);
+        display: inline-block;
+        background-color: blueviolet;
+        padding: 8px;
+      } */
