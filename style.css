@@ -104,7 +104,7 @@ img {
 }
 
 .bottom{
-  padding-bottom: 500px;
+  padding-bottom: auto;
 }
 
 /* nav > *{
