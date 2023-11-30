@@ -19,7 +19,8 @@ header {
             padding-right: 25px; */
   padding-inline: 25px;
   min-height: 70px;
-  background-image: url(./assets/yellowBG.jpg);
+  background: url(./yellowBG.jpg);
+  position: cover;
 }
 
 nav {
